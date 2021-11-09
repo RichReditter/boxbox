@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.red{
+    background-color: red;
+}
+.black{
+    bottom: 69px;
+    transition: all 1s;
+    background-color: black;
+    position:absolute; 
+    z-index: 2;                  /*новое свойство какое-то  */
+}
+.black:hover{
+    bottom:0px;
+    transition: all 1s;
+    behavior: smooth;
+}
+.orange{
+    background-color:orange;
+    position:absolute;
+    z-index: 3; 
+}
+.block{
+    width: 300px;
+    height: 300px;
+}
+.button{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: palegreen;
+    border-radius: 40%;
+}
+div p {
+    justify-content: center;
+}
+.relative{
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 5;
+}
+.label{
+
+}
+.text{
+
+}
+body{
+    height: 200vh;
+}
+.label{
+    background-color: purple;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    width: 50px;
+    height: 10px;
+}
+.text{
+    bottom: 6px;
+    left: 5px;
+    position: absolute;
+    width:300px;
+    height: 30px;
+    background-color: rgb(194, 47, 31);
+    left:calc(100% - 320px)
+}
